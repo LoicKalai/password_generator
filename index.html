@@ -18,16 +18,17 @@
                 <h1> Password Generator</h1>
             </div>
 
-            <div class="contlength">
+            <div class="contlength"><!--BLOC LEN-->
                 <div class="placetitre"> <!--PLACER LE TITRE LEN ET ICON-->
                     <img class="iconlen" src="./img/iconlength.svg" alt="icon length password">
-                    <h3 class="passwordlen">Password length</h3>
+                    <h3 class="subtitle">Password length</h3>
                 </div>
 
                 <div class="placelen"> <!--PLACER LEN-->
-                    <div class="nbrlen"><p>12</p></div>
+                    <input type="text" class="nbrlen" placeholder="12"></input>
                     <input type="range" class="progressbar"> <!--BAR DE PROGRESSION-->
                 </div>
+
                 <!--BLOC INFORMATION1-->
                 <div class="placebloci"> <!--PLACER MON BLOC I-->
                     <div class="blocinfo">
@@ -38,9 +39,35 @@
                     </div>
                 </div>
                 <!--FIN DU BLOC I -->
+            </div><!--FIN DU BLOC LEN-->
 
-            </div>
-                  </div> <!--FIN CONTAINER-->
+
+            <div class="contoption"><!--BLOC OPTION-->
+                <div class="placetitre2">
+                    <img class="iconparam" src="./img/param.svg" alt="icon parametre">
+                    <h3 class="subtitle">Password options</h3>
+                </div>
+
+                <div class="placeinp1">
+                    <div class="placeinp2"><!--PLACER MES INPUTS-->
+                        <input class="inpcheck" type="checkbox" name="checkbox" id="nbr" >
+                        &nbsp;<label for="nbr">numbers</label>
+    
+                        <input class="inpcheck" type="checkbox" name="checkbox" id="lower">
+                        &nbsp;<label for="lower">lowercase</label>
+    
+                        <input class="inpcheck" type="checkbox" name="checkbox" id="upper">
+                        &nbsp;<label for="upper">uppercase</label>
+    
+                        <input class="inpcheck" type="checkbox" name="checkbox" id="char">
+                        &nbsp;<label for="char">special characters</label>
+                    </div>
+                </div>
+                
+            </div><!--FIN BLOC OPTION-->
+
+        </div> <!--FIN CONTAINER-->
+
     </section>
 <script src="./script.js"></script>
 </body>
