@@ -45,7 +45,32 @@ h1{
     position: absolute;
     left: 30%;
 }
+
+/*CONTENU PASSWORD LENGTH*/
+
 .contlength{
     background-color: #0BA689;
     height: 15%;
+    margin-top: 3%;
+}
+.passwordlen{
+    font-size: 1em;
+    font-family: "Outfit";
+    font-weight: 400;
+    color: #F7DA84;
+    margin-left: 0.5%;
+}
+.iconlen{
+    height: 16px;
+    margin-top: 0.2%;
+}
+.placetitre{
+    display: flex;
+    margin-left: 28%;
+}
+.progressbar{
+    width: 18.5%;
+    height: 20px;
+    background-color: rgba(247, 218, 132, 1);
+
 }
